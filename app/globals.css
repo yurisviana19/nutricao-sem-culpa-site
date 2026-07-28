@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FDFCF7;
+  color: #20281F;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.focus-ring:focus-visible {
+  outline: 3px solid #C99A3B;
+  outline-offset: 2px;
+}
+
+.section-container {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* ---------- Reveal on scroll ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* ---------- Gentle float for mockups ---------- */
+@keyframes gentle-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float {
+  animation: gentle-float 6s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-float { animation: none; }
+}
+
+/* ---------- Soft pulse ring for a single accent element (no blinking) ---------- */
+@keyframes soft-ring {
+  0% { box-shadow: 0 0 0 0 rgba(201, 154, 59, 0.35); }
+  100% { box-shadow: 0 0 0 14px rgba(201, 154, 59, 0); }
+}
+.ring-pulse-once {
+  animation: soft-ring 1.8s cubic-bezier(0.16, 1, 0.3, 1) 1;
+}
+
+/* ---------- Button micro-interaction ---------- */
+.btn-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.btn-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -8px rgba(11, 74, 58, 0.35);
+}
+.btn-lift:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* ---------- Card lift ---------- */
+.card-lift {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -20px rgba(11, 74, 58, 0.25);
+}
+
+/* ---------- Organic blob decoration ---------- */
+.blob {
+  position: absolute;
+  filter: blur(0px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ---------- Number badge glow-free accent ---------- */
+.text-gradient-gold {
+  background: linear-gradient(90deg, #C99A3B, #E8724F);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

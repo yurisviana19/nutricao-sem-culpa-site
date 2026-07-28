@@ -1,0 +1,767 @@
+[
+  {
+    "id": 1,
+    "category": "CAFÉ DA MANHÃ",
+    "title": "Omelete de forno com vegetais",
+    "time": "25 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "4 ovos",
+      "½ xícara de leite (ou água)",
+      "1 tomate picado",
+      "1 punhado de espinafre picado",
+      "¼ de cebola picada",
+      "2 colheres de sopa de queijo cottage ou mussarela light",
+      "Sal e ervas a gosto"
+    ],
+    "preparation": "Bata os ovos com o leite. Misture os vegetais picados e o queijo. Despeje em uma forma untada e leve ao forno a 180°C por 15–20 minutos, até firmar.",
+    "nutrition_per_portion": {
+      "kcal": "180",
+      "protein_g": "14",
+      "carb_g": "4",
+      "fat_g": "12"
+    },
+    "nutritionist_note": "Vegetais aumentam bastante o volume do prato sem aumentar muito a energia — o contrário do que vimos no Capítulo 01 sobre alimentos densos como azeite e frituras."
+  },
+  {
+    "id": 2,
+    "category": "CAFÉ DA MANHÃ",
+    "title": "Panqueca de banana e aveia",
+    "time": "15 min",
+    "yield": "2 porções (4 panquecas pequenas)",
+    "ingredients": [
+      "1 banana madura amassada",
+      "2 ovos",
+      "3 colheres de sopa de aveia em flocos",
+      "Canela a gosto"
+    ],
+    "preparation": "Misture todos os ingredientes até formar uma massa homogênea. Frite pequenas porções em frigideira antiaderente, virando quando dourar.",
+    "nutrition_per_portion": {
+      "kcal": "220",
+      "protein_g": "10",
+      "carb_g": "28",
+      "fat_g": "7"
+    },
+    "nutritionist_note": "Carboidrato no café da manhã não é problema — como vimos no Capítulo 03, o horário isolado não decide o resultado."
+  },
+  {
+    "id": 3,
+    "category": "CAFÉ DA MANHÃ",
+    "title": "Vitamina de banana com pasta de amendoim",
+    "time": "5 min",
+    "yield": "1 porção",
+    "ingredients": [
+      "1 banana",
+      "200ml de leite (ou bebida vegetal)",
+      "1 colher de sopa de pasta de amendoim",
+      "Gelo a gosto"
+    ],
+    "preparation": "Bata todos os ingredientes no liquidificador até ficar homogêneo.",
+    "nutrition_per_portion": {
+      "kcal": "280",
+      "protein_g": "10",
+      "carb_g": "30",
+      "fat_g": "14"
+    },
+    "nutritionist_note": "Como vimos no Capítulo 09, a pasta de amendoim é nutritiva, mas a colher “por cima” da porção conta — vale medir com atenção."
+  },
+  {
+    "id": 4,
+    "category": "CAFÉ DA MANHÃ",
+    "title": "Tapioca recheada com ovo e queijo cottage",
+    "time": "10 min",
+    "yield": "1 porção",
+    "ingredients": [
+      "3 colheres de sopa de goma de tapioca",
+      "1 ovo mexido",
+      "2 colheres de sopa de queijo cottage",
+      "Sal a gosto"
+    ],
+    "preparation": "Faça a tapioca em frigideira antiaderente. Recheie com o ovo mexido e o cottage, dobre ao meio.",
+    "nutrition_per_portion": {
+      "kcal": "210",
+      "protein_g": "13",
+      "carb_g": "22",
+      "fat_g": "7"
+    },
+    "nutritionist_note": "Combinar o carboidrato com proteína — como discutimos no Capítulo 04 — costuma ajudar na saciedade, sem precisar cortar a tapioca da rotina."
+  },
+  {
+    "id": 5,
+    "category": "CAFÉ DA MANHÃ",
+    "title": "Iogurte com granola caseira e frutas",
+    "time": "5 min",
+    "yield": "1 porção",
+    "ingredients": [
+      "200g de iogurte natural",
+      "3 colheres de sopa de granola caseira",
+      "(aveia, castanhas, canela, fio de mel)",
+      "Frutas picadas (morango, banana)"
+    ],
+    "preparation": "Monte em camadas: iogurte, granola, frutas.",
+    "nutrition_per_portion": {
+      "kcal": "260",
+      "protein_g": "14",
+      "carb_g": "32",
+      "fat_g": "8"
+    },
+    "nutritionist_note": "Granola é nutritiva, mas pode concentrar açúcar e calorias dependendo da receita — o Capítulo 09 fala exatamente sobre isso: nutritivo não é sinônimo de sem calorias."
+  },
+  {
+    "id": 6,
+    "category": "CAFÉ DA MANHÃ",
+    "title": "Aveia de overnight com chia e frutas vermelhas",
+    "time": "Tempo · 5 min + descanso na geladeira durante a noite          Rende · 1 porção",
+    "yield": null,
+    "ingredients": [
+      "4 colheres de sopa de aveia em flocos",
+      "1 colher de chá de chia",
+      "150ml de leite (ou bebida vegetal)",
+      "Frutas vermelhas a gosto",
+      "Mel opcional"
+    ],
+    "preparation": "Misture tudo em um pote com tampa e leve à geladeira durante a noite. Consuma gelado pela manhã.",
+    "nutrition_per_portion": {
+      "kcal": "230",
+      "protein_g": "9",
+      "carb_g": "34",
+      "fat_g": "6"
+    },
+    "nutritionist_note": "Ter uma opção pronta na geladeira ajuda a evitar decisões apressadas de manhã — sem depender de força de vontade, como discutimos ao longo do e-book."
+  },
+  {
+    "id": 7,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Palitinhos de cenoura e pepino com homus",
+    "time": "10 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "1 cenoura em palitos",
+      "1 pepino em palitos",
+      "4 colheres de sopa de homus (grão-de- bico, tahine, azeite, limão)"
+    ],
+    "preparation": "Corte os vegetais em palitos e sirva com o homus para mergulhar.",
+    "nutrition_per_portion": {
+      "kcal": "120",
+      "protein_g": "4",
+      "carb_g": "12",
+      "fat_g": "6"
+    },
+    "nutritionist_note": "Ter um lanche pronto e visível na geladeira ajuda a evitar os “restinhos sem conta” do Capítulo 01 — beliscar planejado é diferente de beliscar sem perceber."
+  },
+  {
+    "id": 8,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Mix de castanhas porcionado",
+    "time": "2 min",
+    "yield": "1 porção",
+    "ingredients": [
+      "1 colher de sopa cheia de castanhas variadas (castanha-do-pará, amêndoa, nozes)"
+    ],
+    "preparation": "Separe a porção em potinhos individuais com antecedência, evitando comer direto do pacote grande.",
+    "nutrition_per_portion": {
+      "kcal": "90",
+      "protein_g": "2",
+      "carb_g": "3",
+      "fat_g": "8"
+    },
+    "nutritionist_note": "Como vimos no Capítulo 09, oleaginosas são nutritivas, mas calóricas em pequenas quantidades — porcionar com antecedência ajuda a manter a consciência da quantidade."
+  },
+  {
+    "id": 9,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Ovos cozidos temperados",
+    "time": "10 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "4 ovos",
+      "Páprica, sal e ervas a gosto"
+    ],
+    "preparation": "Cozinhe os ovos por 8–10 minutos, descasque e tempere. Guarde na geladeira para consumir ao longo da semana.",
+    "nutrition_per_portion": {
+      "kcal": "140",
+      "protein_g": "12",
+      "carb_g": "1",
+      "fat_g": "10"
+    },
+    "nutritionist_note": "Ter uma opção proteica pronta reduz a chance de chegar com fome intensa à próxima refeição — um dos pontos observados no Capítulo 07 sobre pular refeições."
+  },
+  {
+    "id": 10,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Iogurte com canela e sementes",
+    "time": "5 min",
+    "yield": "1 porção",
+    "ingredients": [
+      "200g de iogurte natural",
+      "1 colher de chá de sementes de chia ou linhaça",
+      "Canela a gosto"
+    ],
+    "preparation": "Misture tudo e sirva.",
+    "nutrition_per_portion": {
+      "kcal": "150",
+      "protein_g": "12",
+      "carb_g": "12",
+      "fat_g": "5"
+    },
+    "nutritionist_note": "A combinação de proteína e fibra costuma contribuir para a saciedade, como comentamos no gabarito da afirmação 20 do teste."
+  },
+  {
+    "id": 11,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Queijo coalho grelhado em cubos",
+    "time": "10 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "150g de queijo coalho em cubos",
+      "Orégano a gosto"
+    ],
+    "preparation": "Grelhe os cubos em frigideira antiaderente até dourar.",
+    "nutrition_per_portion": {
+      "kcal": "200",
+      "protein_g": "14",
+      "carb_g": "1",
+      "fat_g": "15"
+    },
+    "nutritionist_note": "Nenhum queijo precisa ser eliminado da rotina — como vimos no Capítulo 04, a questão está na porção e na frequência, não na exclusão total."
+  },
+  {
+    "id": 12,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Bolinho de banana e aveia (assado)",
+    "time": "25 min",
+    "yield": "6 unidades (2 por porção)",
+    "ingredients": [
+      "2 bananas amassadas",
+      "1 xícara de aveia em flocos",
+      "1 ovo",
+      "Canela a gosto"
+    ],
+    "preparation": "Misture tudo, forme bolinhos e asse a 180°C por 15–18 minutos.",
+    "nutrition_per_portion": {
+      "kcal": "160",
+      "protein_g": "6",
+      "carb_g": "26",
+      "fat_g": "3"
+    },
+    "nutritionist_note": "Um doce planejado não precisa virar motivo de culpa — o Capítulo 14 fala exatamente sobre isso: consistência é mais sustentável do que rigidez."
+  },
+  {
+    "id": 13,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Chips de batata doce assados",
+    "time": "30 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "1 batata doce fatiada bem fina",
+      "Azeite, sal e páprica a gosto"
+    ],
+    "preparation": "Tempere as fatias e asse a 200°C por 20–25 minutos, virando na metade do tempo.",
+    "nutrition_per_portion": {
+      "kcal": "140",
+      "protein_g": "2",
+      "carb_g": "24",
+      "fat_g": "4"
+    },
+    "nutritionist_note": "Assar em vez de fritar reduz a densidade energética sem exigir que você elimine o alimento — reforçando o que vimos no Capítulo 06 sobre métodos de preparo."
+  },
+  {
+    "id": 14,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Pipoca feita na panela",
+    "time": "10 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "3 colheres de sopa de milho de pipoca",
+      "1 colher de chá de óleo",
+      "Sal a gosto"
+    ],
+    "preparation": "Aqueça o óleo, adicione o milho, tampe a panela e deixe estourar em fogo médio.",
+    "nutrition_per_portion": {
+      "kcal": "110",
+      "protein_g": "3",
+      "carb_g": "20",
+      "fat_g": "3"
+    },
+    "nutritionist_note": "A pipoca ocupa bastante volume no prato com relativamente pouca energia — um bom exemplo prático do que discutimos no Capítulo 01 sobre volume x densidade energética."
+  },
+  {
+    "id": 15,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Mini sanduíche integral com atum",
+    "time": "10 min",
+    "yield": "1 porção",
+    "ingredients": [
+      "2 fatias de pão integral",
+      "1 lata de atum ao natural",
+      "1 colher de sopa de iogurte natural (no lugar da maionese)",
+      "Folhas verdes"
+    ],
+    "preparation": "Misture o atum com o iogurte, monte o sanduíche com as folhas.",
+    "nutrition_per_portion": {
+      "kcal": "250",
+      "protein_g": "22",
+      "carb_g": "24",
+      "fat_g": "6"
+    },
+    "nutritionist_note": "O pão não precisa ser cortado da rotina — o Capítulo 04 mostra que a combinação e a porção importam mais do que a exclusão do carboidrato."
+  },
+  {
+    "id": 16,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Barrinha caseira de aveia e castanhas",
+    "time": "Tempo · 30 min (+ geladeira)          Rende · 8 unidades (1 por porção)",
+    "yield": null,
+    "ingredients": [
+      "1 xícara de aveia em flocos",
+      "½ xícara de castanhas picadas",
+      "3 colheres de sopa de mel ou pasta de tâmara",
+      "1 colher de sopa de óleo de coco"
+    ],
+    "preparation": "Misture tudo, pressione em uma forma forrada e leve à geladeira por pelo menos 2 horas. Corte em barras.",
+    "nutrition_per_portion": {
+      "kcal": "140",
+      "protein_g": "3",
+      "carb_g": "16",
+      "fat_g": "7"
+    },
+    "nutritionist_note": "Ter uma opção caseira pronta reduz a chance de recorrer a alternativas ultraprocessadas por falta de planejamento — um dos pontos do Capítulo 15 sobre fatores de rotina."
+  },
+  {
+    "id": 17,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Rolinho de peito de peru com cottage",
+    "time": "10 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "6 fatias de peito de peru",
+      "4 colheres de sopa de queijo cottage",
+      "Orégano a gosto"
+    ],
+    "preparation": "Recheie cada fatia com o cottage e enrole.",
+    "nutrition_per_portion": {
+      "kcal": "130",
+      "protein_g": "16",
+      "carb_g": "3",
+      "fat_g": "5"
+    },
+    "nutritionist_note": "Um lanche proteico e prático ajuda a evitar repetições que “se somam sem perceber” — como vimos no Capítulo 01."
+  },
+  {
+    "id": 18,
+    "category": "LANCHES E BELISCOS PRÁTICOS",
+    "title": "Potinho de frutas com iogurte e canela",
+    "time": "5 min",
+    "yield": "1 porção",
+    "ingredients": [
+      "1 xícara de frutas picadas (maçã, uva, morango)",
+      "100g de iogurte natural",
+      "Canela a gosto"
+    ],
+    "preparation": "Misture as frutas com o iogurte e finalize com canela.",
+    "nutrition_per_portion": {
+      "kcal": "130",
+      "protein_g": "5",
+      "carb_g": "20",
+      "fat_g": "3"
+    },
+    "nutritionist_note": "Levar uma opção pronta para eventos sociais ou dias corridos ajuda a evitar chegar com fome extrema — um ponto prático do Capítulo 10 sobre planejamento de fim de semana."
+  },
+  {
+    "id": 19,
+    "category": "PRATOS PRINCIPAIS",
+    "title": "Frango grelhado com arroz integral e brócolis",
+    "time": "30 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "2 filés de peito de frango",
+      "1 xícara de arroz integral cozido",
+      "1 xícara de brócolis cozido no vapor",
+      "Azeite, alho e temperos a gosto"
+    ],
+    "preparation": "Tempere o frango e grelhe até dourar dos dois lados. Sirva com o arroz e o brócolis no vapor.",
+    "nutrition_per_portion": {
+      "kcal": "380",
+      "protein_g": "35",
+      "carb_g": "32",
+      "fat_g": "10"
+    },
+    "nutritionist_note": "Um prato com proteína, carboidrato e vegetais reunidos é o que discutimos no Dia 4 do plano prático — organizar, sem precisar ser perfeito."
+  },
+  {
+    "id": 20,
+    "category": "PRATOS PRINCIPAIS",
+    "title": "Salmão assado com batata doce e aspargos",
+    "time": "30 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "2 filés de salmão",
+      "1 batata doce em rodelas",
+      "1 maço de aspargos",
+      "Azeite, limão e ervas a gosto"
+    ],
+    "preparation": "Disponha tudo em uma assadeira, tempere e asse a 200°C por 20–25 minutos.",
+    "nutrition_per_portion": {
+      "kcal": "420",
+      "protein_g": "30",
+      "carb_g": "28",
+      "fat_g": "18"
+    },
+    "nutritionist_note": "O azeite usado no preparo é benéfico, mas denso em calorias por colher — como vimos no Capítulo 09, vale usar com atenção à quantidade, não com medo."
+  },
+  {
+    "id": 21,
+    "category": "PRATOS PRINCIPAIS",
+    "title": "Escondidinho de mandioca com carne moída",
+    "time": "40 min",
+    "yield": "4 porções",
+    "ingredients": [
+      "500g de mandioca cozida e amassada",
+      "300g de carne moída",
+      "1 cebola, 2 dentes de alho, tomate picado",
+      "Queijo mussarela light para gratinar"
+    ],
+    "preparation": "Refogue a carne com os temperos. Em um refratário, monte camadas de mandioca e carne, finalize com o queijo e leve ao forno para gratinar.",
+    "nutrition_per_portion": {
+      "kcal": "350",
+      "protein_g": "22",
+      "carb_g": "30",
+      "fat_g": "14"
+    },
+    "nutritionist_note": "Pratos tradicionais não precisam ser eliminados — o Capítulo 04 reforça que porção e frequência importam mais do que excluir o alimento em si."
+  },
+  {
+    "id": 22,
+    "category": "PRATOS PRINCIPAIS",
+    "title": "Strogonoff fit de frango",
+    "time": "30 min",
+    "yield": "3 porções",
+    "ingredients": [
+      "400g de peito de frango em cubos",
+      "1 cebola picada",
+      "200g de molho de tomate caseiro",
+      "3 colheres de sopa de iogurte natural ou creme de leite light",
+      "Batata palha (opcional, com moderação)"
+    ],
+    "preparation": "Refogue a cebola e o frango, adicione o molho de tomate e finalize com o iogurte fora do fogo, mexendo bem.",
+    "nutrition_per_portion": {
+      "kcal": "300",
+      "protein_g": "28",
+      "carb_g": "12",
+      "fat_g": "14"
+    },
+    "nutritionist_note": "Trocar o creme de leite tradicional por iogurte reduz densidade calórica sem exigir que você abra mão do prato — no espírito do Capítulo 06 sobre métodos e escolhas práticas."
+  },
+  {
+    "id": 23,
+    "category": "PRATOS PRINCIPAIS",
+    "title": "Omelete recheado com legumes e queijo",
+    "time": "15 min",
+    "yield": "1 porção",
+    "ingredients": [
+      "2 ovos",
+      "Abobrinha e cenoura raladas",
+      "1 colher de sopa de queijo ralado"
+    ],
+    "preparation": "Bata os ovos, despeje na frigideira, adicione o recheio de um lado e dobre ao meio quando firmar.",
+    "nutrition_per_portion": {
+      "kcal": "230",
+      "protein_g": "16",
+      "carb_g": "6",
+      "fat_g": "15"
+    },
+    "nutritionist_note": "Um prato rápido para dias corridos evita chegar com fome extrema à próxima refeição — um dos pontos observados no Capítulo 07."
+  },
+  {
+    "id": 24,
+    "category": "PRATOS PRINCIPAIS",
+    "title": "Arroz de forno com frango desfiado",
+    "time": "40 min",
+    "yield": "4 porções",
+    "ingredients": [
+      "2 xícaras de arroz cozido",
+      "300g de frango desfiado",
+      "Milho, ervilha, requeijão light",
+      "Queijo para gratinar"
+    ],
+    "preparation": "Misture todos os ingredientes em um refratário, cubra com queijo e leve ao forno até gratinar.",
+    "nutrition_per_portion": {
+      "kcal": "340",
+      "protein_g": "20",
+      "carb_g": "38",
+      "fat_g": "10"
+    },
+    "nutritionist_note": "Um prato prático para congelar em porções ajuda a evitar decisões apressadas nos dias de rotina mais corrida — um fator de rotina citado no Capítulo 15."
+  },
+  {
+    "id": 25,
+    "category": "PRATOS PRINCIPAIS",
+    "title": "Peixe ao forno com legumes assados",
+    "time": "30 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "2 filés de peixe branco (tilápia ou similar)",
+      "Abobrinha, cenoura e pimentão em cubos",
+      "Azeite, limão e ervas a gosto"
+    ],
+    "preparation": "Disponha o peixe e os legumes em uma assadeira, regue com azeite e limão, asse a 200°C por 20 minutos.",
+    "nutrition_per_portion": {
+      "kcal": "280",
+      "protein_g": "28",
+      "carb_g": "14",
+      "fat_g": "10"
+    },
+    "nutritionist_note": "Vegetais coloridos aumentam o volume do prato com relativamente pouca energia — reforçando o conceito de densidade energética do Capítulo 01."
+  },
+  {
+    "id": 26,
+    "category": "PRATOS PRINCIPAIS",
+    "title": "Macarrão integral com brócolis e frango",
+    "time": "25 min",
+    "yield": "3 porções",
+    "ingredients": [
+      "250g de macarrão integral",
+      "300g de peito de frango em tiras",
+      "1 xícara de brócolis cozido",
+      "Azeite, alho e parmesão a gosto"
+    ],
+    "preparation": "Cozinhe o macarrão. Grelhe o frango com alho, misture com o brócolis e o macarrão, finalize com azeite e parmesão.",
+    "nutrition_per_portion": {
+      "kcal": "380",
+      "protein_g": "30",
+      "carb_g": "40",
+      "fat_g": "10"
+    },
+    "nutritionist_note": "Massa não é vilã — como vimos no Capítulo 04, a combinação com proteína e vegetais é o que faz diferença no conjunto da refeição."
+  },
+  {
+    "id": 27,
+    "category": "MOLHOS E TEMPEROS CASEIROS",
+    "title": "Molho de iogurte com ervas",
+    "time": "5 min",
+    "yield": "4 porções (2 colheres de sopa cada)",
+    "ingredients": [
+      "200g de iogurte natural",
+      "Salsinha, cebolinha e endro picados",
+      "1 dente de alho pequeno amassado",
+      "Sal e limão a gosto"
+    ],
+    "preparation": "Misture todos os ingredientes até ficar homogêneo. Guarde na geladeira por até 3 dias.",
+    "nutrition_per_portion": {
+      "kcal": "40",
+      "protein_g": "3",
+      "carb_g": "3",
+      "fat_g": "1"
+    },
+    "nutritionist_note": "Substituir molhos prontos por versões caseiras costuma reduzir sódio e açúcares adicionados — um dos pontos de leitura de rótulo discutidos no Capítulo 05."
+  },
+  {
+    "id": 28,
+    "category": "MOLHOS E TEMPEROS CASEIROS",
+    "title": "Molho de tomate caseiro",
+    "time": "25 min",
+    "yield": "6 porções (3 colheres de sopa cada)",
+    "ingredients": [
+      "6 tomates maduros picados (ou 1 lata de tomate pelado)",
+      "1 cebola picada",
+      "2 dentes de alho",
+      "Azeite, manjericão e orégano a gosto"
+    ],
+    "preparation": "Refogue a cebola e o alho no azeite, adicione o tomate e cozinhe em fogo baixo por cerca de 20 minutos, mexendo de vez em quando.",
+    "nutrition_per_portion": {
+      "kcal": "50",
+      "protein_g": "1",
+      "carb_g": "6",
+      "fat_g": "3"
+    },
+    "nutritionist_note": "Ter uma base caseira pronta facilita montar refeições rápidas sem depender de molhos industrializados com maior densidade calórica — um fator de rotina do Capítulo 15."
+  },
+  {
+    "id": 29,
+    "category": "MOLHOS E TEMPEROS CASEIROS",
+    "title": "Azeite aromatizado com ervas",
+    "time": "Tempo · 5 min (+ infusão de algumas horas)       Rende · 8 porções (1 colher de chá cada)",
+    "yield": null,
+    "ingredients": [
+      "100ml de azeite de oliva",
+      "Alecrim, tomilho ou orégano frescos",
+      "1 dente de alho amassado (opcional)"
+    ],
+    "preparation": "Aqueça levemente o azeite (sem ferver), adicione as ervas e deixe em infusão por algumas horas antes de coar e guardar em vidro.",
+    "nutrition_per_portion": {
+      "kcal": "40",
+      "protein_g": "0",
+      "carb_g": "0",
+      "fat_g": "5"
+    },
+    "nutritionist_note": "O azeite é benéfico, mas denso em calorias por colher — como vimos no Capítulo 09, medir a quantidade usada ajuda a manter a percepção real do consumo."
+  },
+  {
+    "id": 30,
+    "category": "MOLHOS E TEMPEROS CASEIROS",
+    "title": "Molho tahine",
+    "time": "5 min",
+    "yield": "6 porções (1 colher de sopa cada)",
+    "ingredients": [
+      "3 colheres de sopa de tahine (pasta de gergelim)",
+      "Suco de 1 limão",
+      "Água até dar ponto de molho",
+      "Sal a gosto"
+    ],
+    "preparation": "Misture o tahine com o limão, adicione água aos poucos até atingir a consistência desejada e tempere.",
+    "nutrition_per_portion": {
+      "kcal": "70",
+      "protein_g": "2",
+      "carb_g": "2",
+      "fat_g": "6"
+    },
+    "nutritionist_note": "Um molho nutritivo continua fornecendo energia relevante por colher — vale usar como tempero, não como item “sem limite”, no espírito do Capítulo 09."
+  },
+  {
+    "id": 31,
+    "category": "FINAL DE SEMANA E EVENTOS SOCIAIS",
+    "title": "Hambúrguer caseiro com pão integral",
+    "time": "25 min",
+    "yield": "2 porções",
+    "ingredients": [
+      "300g de carne moída (patinho ou similar)",
+      "Sal, cebola e alho a gosto",
+      "2 pães integrais",
+      "Alface, tomate e queijo a gosto"
+    ],
+    "preparation": "Tempere a carne, molde os hambúrgueres e grelhe em frigideira antiaderente até o ponto desejado. Monte no pão com os acompanhamentos.",
+    "nutrition_per_portion": {
+      "kcal": "420",
+      "protein_g": "30",
+      "carb_g": "30",
+      "fat_g": "18"
+    },
+    "nutritionist_note": "Fazer em casa permite ajustar quantidade de queijo, molhos e pão conforme o contexto do dia — sem transformar o hambúrguer em vilão, como discutimos no Capítulo 10 sobre refeição livre planejada."
+  },
+  {
+    "id": 32,
+    "category": "FINAL DE SEMANA E EVENTOS SOCIAIS",
+    "title": "Pizza fit de liquidificador",
+    "time": "35 min",
+    "yield": "4 porções (2 fatias cada)",
+    "ingredients": [
+      "2 ovos",
+      "1 xícara de leite",
+      "1 xícara de farinha de aveia",
+      "Molho de tomate, mussarela e coberturas a gosto"
+    ],
+    "preparation": "Bata os ingredientes líquidos e a farinha no liquidificador até formar uma massa homogênea. Despeje em forma untada, adicione o molho e as coberturas, e asse a 200°C por cerca de 20–25 minutos.",
+    "nutrition_per_portion": {
+      "kcal": "260",
+      "protein_g": "14",
+      "carb_g": "24",
+      "fat_g": "12"
+    },
+    "nutritionist_note": "Ter uma versão caseira para o fim de semana ajuda a planejar com antecedência o que faz sentido pedir ou preparar, como sugerimos no Dia 6 do plano prático."
+  },
+  {
+    "id": 33,
+    "category": "FINAL DE SEMANA E EVENTOS SOCIAIS",
+    "title": "Petiscos de forno para compartilhar",
+    "time": "30 min",
+    "yield": "4 porções",
+    "ingredients": [
+      "2 batatas em palitos",
+      "1 berinjela em rodelas finas",
+      "Iscas de frango temperadas",
+      "Azeite, sal e páprica a gosto"
+    ],
+    "preparation": "Tempere todos os itens separadamente e distribua em uma assadeira. Asse a 200°C por 25–30 minutos, virando na metade do tempo.",
+    "nutrition_per_portion": {
+      "kcal": "230",
+      "protein_g": "15",
+      "carb_g": "22",
+      "fat_g": "9"
+    },
+    "nutritionist_note": "Assar em vez de fritar reduz a densidade energética do petisco sem tirar o prazer do momento social — reforçando o que vimos no Capítulo 06."
+  },
+  {
+    "id": 34,
+    "category": "SOBREMESAS E DOCES EQUILIBRADOS",
+    "title": "Mousse de chocolate com abacate",
+    "time": "Tempo · 10 min (+ geladeira)          Rende · 3 porções",
+    "yield": null,
+    "ingredients": [
+      "1 abacate maduro",
+      "3 colheres de sopa de cacau em pó",
+      "2 colheres de sopa de mel ou pasta de tâmara",
+      "1 colher de chá de essência de baunilha"
+    ],
+    "preparation": "Bata todos os ingredientes no liquidificador ou processador até ficar homogêneo. Leve à geladeira por pelo menos 1 hora antes de servir.",
+    "nutrition_per_portion": {
+      "kcal": "180",
+      "protein_g": "3",
+      "carb_g": "18",
+      "fat_g": "12"
+    },
+    "nutritionist_note": "Abacate é rico em fibras e gorduras boas, mas também calórico — como vimos no Capítulo 09, isso não é motivo para evitar, e sim para considerar a porção."
+  },
+  {
+    "id": 35,
+    "category": "SOBREMESAS E DOCES EQUILIBRADOS",
+    "title": "Brownie fit de banana e cacau",
+    "time": "30 min",
+    "yield": "8 pedaços (1 por porção)",
+    "ingredients": [
+      "2 bananas maduras amassadas",
+      "3 ovos",
+      "4 colheres de sopa de cacau em pó",
+      "3 colheres de sopa de farinha de aveia",
+      "1 colher de sopa de óleo de coco"
+    ],
+    "preparation": "Misture todos os ingredientes até formar uma massa homogênea. Despeje em forma untada e asse a 180°C por 20–25 minutos.",
+    "nutrition_per_portion": {
+      "kcal": "110",
+      "protein_g": "4",
+      "carb_g": "12",
+      "fat_g": "5"
+    },
+    "nutritionist_note": "Um doce planejado e saboreado sem culpa se encaixa melhor na rotina do que a proibição total — o Capítulo 14 mostra como a rigidez costuma sair pela culatra."
+  },
+  {
+    "id": 36,
+    "category": "SOBREMESAS E DOCES EQUILIBRADOS",
+    "title": "“Sorvete” de banana com cacau",
+    "time": "Tempo · 5 min (+ banana congelada previamente)      Rende · 1 porção",
+    "yield": null,
+    "ingredients": [
+      "2 bananas congeladas em rodelas",
+      "1 colher de sopa de cacau em pó",
+      "Um fio de leite (se necessário, para bater)"
+    ],
+    "preparation": "Bata as bananas congeladas no processador até formar uma textura cremosa. Adicione o cacau e bata novamente.",
+    "nutrition_per_portion": {
+      "kcal": "190",
+      "protein_g": "3",
+      "carb_g": "40",
+      "fat_g": "1"
+    },
+    "nutritionist_note": "Uma opção doce, gelada e prática para os dias mais quentes — sem depender de sorvetes industrializados com maior densidade calórica."
+  },
+  {
+    "id": 37,
+    "category": "SOBREMESAS E DOCES EQUILIBRADOS",
+    "title": "Doce de batata doce com canela",
+    "time": "30 min",
+    "yield": "4 porções",
+    "ingredients": [
+      "2 batatas doces cozidas e amassadas",
+      "2 colheres de sopa de mel ou açúcar demerara",
+      "Canela a gosto",
+      "Coco ralado (opcional)"
+    ],
+    "preparation": "Misture a batata doce amassada com o mel e a canela. Leve ao forno em forminhas por 15 minutos ou sirva gelado, finalizando com coco ralado.",
+    "nutrition_per_portion": {
+      "kcal": "140",
+      "protein_g": "2",
+      "carb_g": "30",
+      "fat_g": "1"
+    },
+    "nutritionist_note": "Alimentos comuns, preparados com atenção à porção, podem compor uma sobremesa equilibrada — reforçando a afirmação 25 do gabarito: alimentos comuns fazem parte de uma alimentação equilibrada."
+  }
+]
