@@ -26,6 +26,23 @@ export const SUPPORT_EMAIL = process.env.NEXT_PUBLIC_SUPPORT_EMAIL || "yuriviana
 export const INSTAGRAM_URL = process.env.NEXT_PUBLIC_INSTAGRAM_URL || "https://instagram.com/yuriviana.nutri";
 export const INSTAGRAM_HANDLE = "@yuriviana.nutri";
 
+/**
+ * Número de WhatsApp (formato internacional, só dígitos, ex: 5579988575965)
+ * usado para montar links wa.me com mensagem pré-preenchida.
+ */
+export const SUPPORT_WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_SUPPORT_WHATSAPP_NUMBER || "";
+
+/**
+ * Link de WhatsApp para quem comprou a consulta avisar que veio pelo site,
+ * com mensagem pronta para agilizar o agendamento após a confirmação do pagamento.
+ */
+export function getConsultationWhatsAppUrl(): string | null {
+  if (!SUPPORT_WHATSAPP_NUMBER) return null;
+  const message =
+    "Olá! Comprei a consulta individual pelo site Nutrição Sem Culpa (e-book) e gostaria de agendar meu atendimento.";
+  return `https://wa.me/${SUPPORT_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+}
+
 /** Preços centrais — única fonte de verdade para toda a página. */
 export const PRICES = {
   ebook: 19.99,

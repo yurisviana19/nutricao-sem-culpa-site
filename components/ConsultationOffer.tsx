@@ -2,9 +2,10 @@ import { CheckoutButton } from "@/components/CheckoutButton";
 import { Reveal } from "@/components/Reveal";
 import { Blob } from "@/components/Blob";
 import { IconCheck } from "@/components/icons";
-import { PRICES, formatBRL, AUTHOR_NAME, AUTHOR_CREDENTIAL } from "@/lib/config";
+import { PRICES, formatBRL, AUTHOR_NAME, AUTHOR_CREDENTIAL, getConsultationWhatsAppUrl } from "@/lib/config";
 
 export function ConsultationOffer() {
+  const whatsappUrl = getConsultationWhatsAppUrl();
   return (
     <section id="consulta" className="relative bg-nsc-verde-profundo text-white py-16 md:py-24 overflow-hidden">
       <Blob className="w-[420px] h-[420px] -top-32 -right-24" color="#C99A3B" opacity={0.1} />
@@ -31,6 +32,15 @@ export function ConsultationOffer() {
               Entender como funciona a consulta
             </a>
           </div>
+          {whatsappUrl && (
+            <p className="text-sm text-white/70 mt-4 max-w-md">
+              Depois de fazer o pagamento, chame no{" "}
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="focus-ring underline font-medium text-white">
+                WhatsApp
+              </a>{" "}
+              avisando que veio pelo site — assim que o pagamento for confirmado, o agendamento é feito.
+            </p>
+          )}
         </Reveal>
         <Reveal delay={100}>
           <div className="bg-white/10 rounded-organic p-8">

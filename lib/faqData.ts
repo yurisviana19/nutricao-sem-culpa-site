@@ -13,7 +13,7 @@ export const FAQ_ITEMS: { q: string; a: string }[] = [
   { q: "O aplicativo substitui uma consulta?", a: "Não. O Psiconutri é uma ferramenta educativa de auto-observação, não uma consulta ou atendimento individualizado." },
   { q: "O Psiconutri substitui um psicólogo?", a: "Não. O aplicativo não oferece atendimento de crise, diagnóstico ou tratamento psicológico." },
   { q: "Como funcionam os planos?", a: `Plano de 30 dias por ${formatBRL(PRICES.appMonthly)} ou plano anual por ${formatBRL(PRICES.appAnnual)} (equivalente a cerca de ${formatBRL(PRICES.appAnnualMonthlyEquivalent)}/mês).` },
-  { q: "Como funciona a consulta?", a: "É um atendimento individual com Yuri Viana para construir uma estratégia considerando sua rotina, objetivos e particularidades." },
+  { q: "Como funciona a consulta?", a: "É um atendimento individual com Yuri Viana para construir uma estratégia considerando sua rotina, objetivos e particularidades. Após o pagamento, chame no WhatsApp avisando que veio pelo site — assim que o pagamento for confirmado, o agendamento é feito." },
   { q: "Posso parcelar a consulta?", a: `Sim, em até ${PRICES.consultationMaxInstallments}x, conforme as condições da plataforma de pagamento utilizada no checkout.` },
   { q: "Como recebo os produtos?", a: "Os e-books são entregues digitalmente após a confirmação do pagamento, pela plataforma de checkout." },
   { q: "Posso acessar pelo celular?", a: "Sim. O site, os e-books e o Psiconutri funcionam bem em celulares, tablets e computadores." },
