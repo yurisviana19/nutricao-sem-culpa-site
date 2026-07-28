@@ -5,7 +5,7 @@ import { AUTHOR_NAME, AUTHOR_CREDENTIAL, INSTAGRAM_HANDLE, SUPPORT_EMAIL } from 
 export function AuthorSection() {
   return (
     <section className="bg-nsc-creme-secundario py-16 md:py-24">
-      <div className="section-container grid md:grid-cols-3 gap-10 items-center">
+      <div className="section-container grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
         <Reveal className="flex justify-center">
           <div className="w-48 h-48 rounded-full bg-nsc-verde-profundo/10 border-4 border-white shadow-xl flex items-center justify-center overflow-hidden" style={{ boxShadow: "0 20px 40px -15px rgba(11,74,58,0.35)" }}>
             <Image

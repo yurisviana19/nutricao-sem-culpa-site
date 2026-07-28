@@ -12,7 +12,7 @@ export function Hero() {
       <Blob className="w-[520px] h-[520px] -top-40 -left-40" color="#0B4A3A" opacity={0.06} />
       <Blob className="w-[420px] h-[420px] top-10 -right-32" color="#E8724F" opacity={0.07} />
 
-      <div className="section-container relative py-14 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+      <div className="section-container relative py-14 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="inline-flex items-center gap-2 uppercase tracking-wide text-nsc-dourado text-xs font-medium mb-4 bg-nsc-creme-secundario px-3 py-1.5 rounded-full">
             <IconSparkle className="w-3.5 h-3.5" />

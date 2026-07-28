@@ -17,7 +17,7 @@ const FEATURES = [
 export function PsiconutriShowcase() {
   return (
     <section id="psiconutri" className="bg-white py-16 md:py-24 overflow-hidden">
-      <div className="section-container grid md:grid-cols-2 gap-12 items-center">
+      <div className="section-container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <Reveal className="order-2 md:order-1 flex justify-center gap-4">
           <div className="animate-float">
             <PhoneMockup screen="pausa" />

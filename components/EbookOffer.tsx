@@ -20,7 +20,7 @@ const CONTENTS = [
 export function EbookOffer() {
   return (
     <section id="ebook" className="bg-white py-16 md:py-24">
-      <div className="section-container grid md:grid-cols-2 gap-12 items-center">
+      <div className="section-container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <Reveal className="flex justify-center order-2 md:order-1">
           <div className="relative animate-float">
             <Image
@@ -42,7 +42,7 @@ export function EbookOffer() {
             O ponto de partida da jornada: entender, sem julgamento, os mitos, padrões e hábitos silenciosos que
             podem estar dificultando seus resultados.
           </p>
-          <ul className="grid sm:grid-cols-2 gap-2.5 mb-6 text-sm">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-6 text-sm">
             {CONTENTS.map((c) => (
               <li key={c} className="flex gap-2">
                 <IconCheck className="w-4 h-4 text-nsc-terracota shrink-0 mt-0.5" />
@@ -51,7 +51,7 @@ export function EbookOffer() {
             ))}
           </ul>
 
-          <div className="grid sm:grid-cols-2 gap-4 mb-6 text-sm">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 text-sm">
             <div className="bg-nsc-creme rounded-organic p-4">
               <p className="font-medium mb-1">Para quem é</p>
               <p className="text-nsc-texto-secundario">

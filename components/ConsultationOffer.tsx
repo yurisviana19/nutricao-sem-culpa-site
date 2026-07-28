@@ -8,7 +8,7 @@ export function ConsultationOffer() {
   return (
     <section id="consulta" className="relative bg-nsc-verde-profundo text-white py-16 md:py-24 overflow-hidden">
       <Blob className="w-[420px] h-[420px] -top-32 -right-24" color="#C99A3B" opacity={0.1} />
-      <div className="section-container relative grid md:grid-cols-2 gap-12 items-center">
+      <div className="section-container relative grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <Reveal>
           <h2 className="font-display text-2xl md:text-3xl mb-4">
             Precisa de uma estratégia construída para a sua realidade?

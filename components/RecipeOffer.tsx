@@ -21,7 +21,7 @@ export function RecipeOffer() {
 
   return (
     <section id="receitas" className="bg-nsc-creme-secundario py-16 md:py-24">
-      <div className="section-container grid md:grid-cols-2 gap-12 items-center">
+      <div className="section-container grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <Reveal>
           <p className="uppercase text-xs tracking-wide text-nsc-dourado font-medium mb-2">Da teoria à prática</p>
           <h2 className="font-display text-2xl md:text-3xl text-nsc-verde-profundo mb-3">Receitas Sem Culpa</h2>
